@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@font-face
+{
+    font-family: "Impact";
+    src: url(../font/impact.ttf);
+}
+
+body {
+	background:url(../img/back1.jpg) no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+header {
+	background:url(../img/logo.png) no-repeat;
+	width:1135px;
+	height:446px;
+	margin-left:11%;
+}
+
+section {
+	width:41%;
+	margin:0 auto;
+	text-align:center;
+	font-size:42px;
+	font-family: 'Impact', sans-serif;
+	color:#ffffff;
+
+}

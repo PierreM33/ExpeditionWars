@@ -1,0 +1,738 @@
+@charset "UTF-8";
+@font-face
+{
+    font-family: "Agency FB";
+    src: url(../font/agency_fb.ttf);
+}
+html,body
+{
+	background:url(../img/logo/thumb.png)  no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+	margin :0; 
+	padding :0;
+	width:100%;
+	height:100%;
+}
+.input_select
+{
+	text-align:center;
+	width: 125px;
+	height:25px;
+	border-radius: 10px;
+	outline: none;
+	-webkit-box-shadow: 0 0 0 1000px white inset;
+}
+.input_required
+{
+	text-align:center;
+	width: 250px;
+	height:25px;
+	border-radius: 10px;
+	outline: none;
+	-webkit-box-shadow: 0 0 0 1000px white inset;
+}
+.input_required:focus:valid
+{
+	border-color:#56C93F;
+	
+}
+.input_required:focus:invalid
+{
+	border-color:red;
+	
+}
+
+.bouton_inscription
+{
+width:85px;
+	height:85px;
+	background:#F9BC52;
+	font:bold 13px Agency_Fb black;
+	border-radius:50%;
+	border:3px solid orange;
+	color:#fff;
+		outline: none;
+}
+
+.titre_inscription
+{
+	background-color:#070707;
+	border-bottom: 1px solid white;
+	height:30px;
+	padding-top:3px;
+text-align:center;
+	color:#09A0D7;
+	font-family: "Agency Fb";
+	font-size:26px;
+}
+.mdp_oublie
+{
+	text-align:center;
+	color:orange;
+	font-size:12px;
+	text-decoration:none;
+}
+a.mdp_oublie
+{
+	text-decoration:none;
+}
+/*-- Accueil erreur de login --*/
+.erreur
+{
+
+	color: #D70939;
+	width:250px;
+	height:25px;
+font-size:16px;
+text-align:center;
+font-family: Agency FB;
+
+}
+p.red {
+	background:#FD2751;
+	color:#ffffff;
+	border:#fff 2px solid;
+	padding:5px;
+	min-width:400px;
+	max-width: 750px;
+	margin: 0 auto 40px;
+	text-align: center;
+}
+p.blue {
+	background:#009615;
+	color:#ffffff;
+	border:#fff 2px solid;
+	padding:5px;
+	min-width:400px;
+	max-width: 750px;
+	margin: 0 auto 40px;
+	text-align: center;
+}
+header
+{
+	background:#222222;
+	height:75px;
+	margin:0 auto;
+	border-bottom:1px solid white;	
+	position:fixed;
+	 margin-left:0px;
+	 margin-right:0px;
+	 margin-top:0px;
+	width: 100%;
+
+}
+#menu {
+    list-style: none;
+    height: 60px;
+	margin:auto;
+	text-align:center;
+
+}
+ 
+#menu li {
+	display:inline-block;
+	font-family:"Agency FB";
+	padding-top: 25px;
+	padding-bottom:25px;
+	padding-left:25px;
+	padding-right:25px;
+	background:#222222;
+}
+#menu li:active{
+     
+	
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+     box-shadow: 0px 0px 10px black;	
+}
+#menu a {
+
+	 color: #09A0D7;
+    font-size: 20px;
+	list-style:none;
+	font-weight:normal;
+	text-decoration:none;
+
+	
+}
+#menu a:hover
+{
+	color:#5ED97B; 
+}
+.logo
+{
+background:url(../img/logo/logo.png);
+background-repeat:no-repeat;
+width: 200px;
+height:200px;
+margin-left: 120px;
+
+}
+
+/* CORPS FOND */
+
+.corps
+{
+	background:#222222;
+	width:1200px;
+	min-height:400px;
+	height: reapaet-y;
+	margin:auto;
+	border: 1px solid black;
+}
+.bloc
+{
+	display: flex;
+}
+.bloc_gauche
+{
+	width: 850px;
+	min-height: 250px;
+	height:reapaet-x;
+	float:left;
+}
+.bloc_droite
+{
+	width: 350px;
+	min-height: 250px;
+	height:reapaet-x;
+	float:right;
+}
+.bloc_factisse
+{
+	background:#0f0f0f;
+	width:750px;
+	margin-left: 25px;
+	margin-top:25px;
+	border: 1px solid black;
+	margin-bottom:10px;
+	float:left;	
+}
+.titre_factisse
+{
+	background-color:#070707;
+	border-bottom: 1px solid white;
+	height:30px;
+	text-align:center;
+		padding-top:2px;
+	color:white;
+	font-family: "Agency Fb";
+	font-size:25px;
+}
+.image_info
+{
+	width:750px;
+	height:150px;
+	background:url(../img/portail/banniere.png) no-repeat;
+
+}
+.bloc_news
+{
+	background:#0f0f0f;
+	width:750px;
+	min-height:200px;
+	height: reapaet-y;
+	margin-left: 25px;
+	margin-top:25px;
+	border: 1px solid black;
+	margin-bottom:10px;
+	float:left;
+	
+}
+.titre
+{
+	background-color:#070707;
+	border-bottom: 1px solid white;
+	height:30px;
+	padding-top:5px;
+	padding-left: 30px;
+	color:#F3B25C;
+	font-family: "Agency Fb";
+	font-size:22px;
+}
+.titre_co
+{
+	background-color:#070707;
+	border-bottom: 1px solid white;
+	height:30px;
+	padding-top:5px;
+text-align:center;
+	color:#09A0D7;
+	font-family: "Agency Fb";
+	font-size:22px;
+}
+.texte
+{
+	color:white;
+	text-align:justify;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.date
+{
+
+	padding-left: 70px;
+	margin-bottom:10px;
+	color:#ADD709;
+	font-style:italic;
+	font-family: "Agency Fb";
+	font-size:16px;
+}
+.bloc_connexion
+{
+	background:#0f0f0f;
+	width:350px;
+	min-height:200px;
+	margin-right: 25px;
+	margin-top:25px;
+	border: 1px solid black;
+	margin-bottom:25px;
+	float:right;
+	
+}
+.bouton
+{
+	width: 250px;
+	height:100px;
+	margin:auto;
+	margin-top:15px;
+}
+.connexL
+ {
+	width:160px;
+	text-align:center;
+	margin-left: 45px;
+	margin-top:20px;
+}
+.connexL1
+{
+	width:162px;
+	text-align:center;
+	margin-left: 45px;
+	margin-top:1px;
+}
+.envoyer
+{
+	
+	margin-left:80px;
+	margin-top:5px;
+	font-size:13px;
+	font-weight:bold;
+	-moz-box-shadow:inset 0px 1px 0px 0px #9fb4f2;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #9fb4f2;
+	box-shadow:inset 0px 1px 0px 0px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Agency_FB;
+	padding:6px 12px;
+	text-decoration:none;
+}
+.envoyer:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	background-color:#476e9e;
+}
+.envoyer:active {
+	position:relative;
+	top:1px;
+}
+.texte_bloc_2_droite
+{
+	color:white;
+	text-align:justify;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top:25px;
+	padding-bottom:50px;
+	font-family: Agency Fb;
+	font-size: 18px;
+}
+
+/************* INSCRIPTION **************/
+.cadre_global_insc
+{
+	width: 900px;
+	height: 500px;
+	margin:auto;
+	border: 1px solid white;
+	
+	
+}
+.barre_titre_insc
+{
+
+	height: 35px;
+background-color:#2CD502;
+border: 1px solid #1D9300;
+
+	
+	
+}
+.bloc_inscription
+{
+	background:#0f0f0f;
+	width:1150px;
+	min-height:300px;
+	height: reapaet-y;
+	margin-left: 25px;
+	margin-top:25px;
+	border: 1px solid black;
+	margin-bottom:10px;
+	float:left;
+	
+}
+
+.btn {
+  background: #ff8c00;
+
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#f29b05 0%,
+		#ffa200);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#f29b05),
+		to(#ffa200));
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 0px solid #ffffff;
+	-moz-box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(0,0,0,1);
+	-webkit-box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(0,0,0,1);
+	box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(0,0,0,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+.btn:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#05f234 0%,
+		#097343);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#05f234),
+		to(#097343));
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 0px solid #ffffff;
+	-moz-box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(0,0,0,1);
+	-webkit-box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(0,0,0,1);
+	box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(0,0,0,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+.texte_inscription
+{
+	color:white;
+	text-align:justify;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+p.fermeture
+{
+	color:#CB0130;
+	text-align:center;
+	font-family: Agency Fb;
+	font-size: 22px;
+}
+p.liste_race
+{
+		font-family: Agency Fb;
+	font-size: 18px;
+	color:orange;
+	text-align:center;
+}
+a.ici
+{
+	text-decoration:none;
+	color:orange;
+}
+/*race*/
+.bloc_1
+{
+	width:450px;
+	min-height:400px;
+	height:repeat-y;
+	border: 3px groove white;
+	margin-left: 50px;
+	margin-top:30px;
+	margin-bottom:10px;
+	float:left;
+}
+.txt_race
+{
+	color:#F7CB65;
+	text-align:justify;
+	font-style:italic;
+	font-family: Agency Fb;
+	padding-left:10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+.img_race
+{
+	width: 120px;
+	height:120px;
+	margin:auto;
+}
+p.nom_race
+{
+	color:orange;
+	text-align:center;
+	font-family: Agency Fb;
+	font-size: 26px;
+	font-weight:bold;
+}
+.titre_race
+{
+	background-color:#070707;
+	border-bottom: 1px solid white;
+	height:30px;
+	padding-top:3px;
+text-align:center;
+	color:#09A0D7;
+	font-family: "Agency Fb";
+	font-size:26px;
+}
+/* HISTOIRE */
+
+.bloc_histoire
+{
+	background:#0f0f0f;
+	width:1150px;
+	min-height:300px;
+	height: reapaet-y;
+	margin-left: 25px;
+	margin-top:25px;
+	border: 1px solid black;
+	margin-bottom:5px;
+	float:left;
+}
+.titre_chapitre
+{
+	text-align:center;
+	font-size:50px;
+	margin-top:25px;
+	margin-bottom:35px;
+	color:#40A443;
+	font-family: Agency FB;
+	font-weight:bold;
+
+}
+.introduction
+{
+	text-align:center;
+	font-size:30px;
+	color:orange;
+	font-family: Agency FB;
+	margin-bottom:20px;
+	font-weight:bold;
+	
+}
+.recit
+{
+	text-align:center;
+	font-size:18px;
+	font-style:italic;
+	color:white;
+	padding-left: 50px;
+	padding-right:50px;
+	font-family: Agency FB;
+	margin-bottom:25px;
+
+}
+
+.introduction_presentation
+{
+	text-align:center;
+	font-size:24px;
+	color:orange;
+	font-family: Agency FB;
+	margin-bottom:20px;
+	font-weight:bold;
+	
+}
+.presentation
+{
+	text-align:center;
+	font-size:18px;
+	color:white;
+	padding-left: 50px;
+	padding-right:50px;
+	font-family: Agency FB;
+	margin-bottom:55px;
+
+}
+.bloc_screen
+{
+	margin:auto;
+	width:1000px;
+	
+	}
+.img
+{
+	width: 450px;
+	height: 350px;
+}
+
+.gallery img {
+	transition: 1s;
+	padding: 150px;
+	width :200px;
+	
+}
+
+.gallery img:hover
+{
+	filter : grayscale(100%);
+	transform: scale (1.1);
+	
+}
+
+/*FOOTER*/
+.footer
+{
+	background:#222222;
+	height:25px;
+	text-align:center;
+	color:white;
+	font-family: "Agency FB";
+margin:auto;
+border-left:1px solid black;
+border-right:1px solid black;
+border-bottom:1px solid black;
+width:1200px;
+margin-bottom:50px;
+padding-top:3px;
+}
+
+
+/* MDP OUBLIE
+*/
+
+.cadre_mdp_oub
+{
+	width: 500px;
+	height:400px;
+	margin:auto;
+
+}
+.pos_bouton
+{
+	margin:auto;
+}
+.bouton_orange {
+	-moz-box-shadow:inset 0px 1px 0px 0px #e39332;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #e39332;
+	box-shadow:inset 0px 1px 0px 0px #e39332;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e38c52), color-stop(1, #f2a624));
+	background:-moz-linear-gradient(top, #e38c52 5%, #f2a624 100%);
+	background:-webkit-linear-gradient(top, #e38c52 5%, #f2a624 100%);
+	background:-o-linear-gradient(top, #e38c52 5%, #f2a624 100%);
+	background:-ms-linear-gradient(top, #e38c52 5%, #f2a624 100%);
+	background:linear-gradient(to bottom, #e38c52 5%, #f2a624 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e38c52', endColorstr='#f2a624',GradientType=0);
+	background-color:#e38c52;
+	border:1px solid #664420;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+.bouton_orange:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f2a624), color-stop(1, #e38c52));
+	background:-moz-linear-gradient(top, #f2a624 5%, #e38c52 100%);
+	background:-webkit-linear-gradient(top, #f2a624 5%, #e38c52 100%);
+	background:-o-linear-gradient(top, #f2a624 5%, #e38c52 100%);
+	background:-ms-linear-gradient(top, #f2a624 5%, #e38c52 100%);
+	background:linear-gradient(to bottom, #f2a624 5%, #e38c52 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2a624', endColorstr='#e38c52',GradientType=0);
+	background-color:#f2a624;
+}
+.bouton_orange:active {
+	position:relative;
+	top:1px;
+}
+
+
+.youtube
+{
+	background: url(../img/portail/youtube.PNG);
+	width: 50px;
+	height: 50px;
+}
+.facebook
+{
+	background: url(../img/portail/fb.PNG);
+	width: 50px;
+	height: 50px;
+}
+
+/* PARTENAIRE */
+
+.laura_antonini
+{
+	width: 880px;
+	height:396px;
+	margin:auto;
+	background: url(../img/portail/laura.png) no-repeat;
+}
