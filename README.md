@@ -1,10 +1,16 @@
 # www.expedition-wars.fr
 
-----(07/04/2022 -> Fichiers en cours de transfert et vérifications)
+Afin de préserver le contenu du jeu, tout les fichiers ne sont pas présent.
+----(11/04/2022 -> Fichiers en cours de transfert et vérifications)
 
 
--> Jeu réalisé en autodidacte, pendant 4 ans. Jeu en ligne multijoueur par navigateur.
 
+-> Jeu navigateur en ligne, multijoueur réalisé en autodidacte, pendant 4 ans. 
+-> https://expedition-wars.fr
+-----------------------------
+Tester le jeu :
+Pseudo: player
+Password: player
 --------------------------------------------------------------
 /*--------------------------GITHUB--------------------------*/
 --------------------------------------------------------------
