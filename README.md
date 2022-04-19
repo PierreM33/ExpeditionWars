@@ -2,7 +2,7 @@
 
 Afin de préserver le contenu du jeu, tout les fichiers ne sont pas présent.
 ----(11/04/2022 -> Fichiers en cours de transfert et vérifications)
-
+----(19/04/2022 -> Fichiers de la partie "php" du code vérifié et transferé)
 
 
 -> Jeu navigateur en ligne, multijoueur réalisé en autodidacte, pendant 4 ans. 
